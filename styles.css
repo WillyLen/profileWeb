@@ -25,7 +25,21 @@
     color: rgb(45, 45, 45);
 }
 
+.Skills h1{
+    font-size: 50px;
+    color:white;
+}
+
 .Skills img {
     width: 100px;
     height: auto;
-  }
+}
+
+.parallax{
+    background-image: url('img/coding.jpg');
+    height: 60vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
