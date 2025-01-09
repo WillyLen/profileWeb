@@ -43,3 +43,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.Project .intro-text a{
+    text-decoration: none;
+    color: rgb(108, 116, 231);
+    font-weight: 700;
+}
