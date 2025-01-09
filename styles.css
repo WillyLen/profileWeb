@@ -2,14 +2,23 @@
 .navbar{
     padding: 0;
     background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+    background-color: rgba(75, 75, 75, 0.8);
 }
 
 .navbar-brand{
-    padding-left: 30PX;
+    padding: 30PX;
 }
 
 .navbar-nav .nav-item{
     padding: 0 40px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: white;
 }
 
 .carousel-item{
@@ -18,11 +27,11 @@
 
 .carousel-caption{
     position: absolute;
-    top: 25%;
+    top: 65%;
 }
 
 .carousel-caption h2{
-    color: rgb(45, 45, 45);
+    color: white;
 }
 
 .Skills h1{
@@ -35,17 +44,52 @@
     height: 100px;
 }
 
-.parallax{
+.parallax-1{
     background-image: url('img/coding.jpg');
-    height: 60vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: auto;
+}
+.parallax-2{
+    background-image: url('img/mountain.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.Project h1{
+    font-size: 50px;
+}
+
+.Project p{
+    font-size: 20px;
 }
 
 .Project .intro-text a{
     text-decoration: none;
     color: rgb(108, 116, 231);
     font-weight: 700;
+}
+
+.contact-info h1{
+    color: rgb(35, 35, 35);   
+    font-size: 50px;
+}
+
+.contact-info p{
+    color: rgb(35, 35, 35);
+    font-size: 20px;
+}
+
+.contact-info i{
+    color: rgb(35, 35, 35);
+    font-size: 30px;
+}
+
+.copyright{
+    color: black;
 }
